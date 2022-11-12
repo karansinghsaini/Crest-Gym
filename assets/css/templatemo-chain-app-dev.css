@@ -1,3 +1,4 @@
+
 /*
 
 TemplateMo 570 Chain App Dev
@@ -149,6 +150,10 @@ body {
 ::selection {
   background: #4b8ef1;
   color: #fff !important;
+}
+
+.services_top{
+  background-image: url(../../images/run.jpg);
 }
 
 ::-moz-selection {
@@ -414,7 +419,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  color: white;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -892,6 +897,7 @@ Banner Style
 
 .main-banner {
   background-repeat: no-repeat;
+  background-image: url(../../images/run.jpg);
   background-position: center center;
   background-size: cover;
   padding: 250px 120px 150px 120px;
@@ -901,7 +907,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.png);
+  
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -910,48 +916,6 @@ Banner Style
   width: 100%;
   height: 100%;
   z-index: 1;
-}
-
-.main-banner .left-content {
-  margin-right: 15px;
-}
-
-.main-banner .left-content h2 {
-  z-index: 2;
-  position: relative;
-  font-weight: 700;
-  line-height: 70px;
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-
-.main-banner .left-content p {
-  margin-bottom: 45px;
-  color: #2a2a2a;
-  font-weight: 400;
-}
-
-.main-banner .left-content .first-button {
-  margin-right: 15px;
-}
-
-.main-banner .left-content .white-button {
-  display: inline-block;
-}
-
-.main-banner .right-image {
-  text-align: center;
-  position: relative;
-  z-index: 20;
-}
-
-.main-banner .right-image img {
-  max-width: 710px;
-}
-
-.main-banner .left-content .white-button a {
-  background-color: #4b8ef1;
-  color: #fff !important;
 }
 
 /* 
@@ -1555,7 +1519,7 @@ footer {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 130px;
+  
   padding-top: 100px;
   padding-bottom: 60px;
 }
