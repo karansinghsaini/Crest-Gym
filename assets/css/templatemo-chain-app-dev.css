@@ -147,6 +147,34 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Red */
+
+.join_btn {
+  border: 2px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  color: red;
+  border-radius: 25px;
+}
+
+.join_btn a {
+  color: red;
+}
+
+.join_btn:hover a {
+  color: white;
+}
+
+.danger {
+  border-color: #f44336;
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
 ::selection {
   background: #4b8ef1;
   color: #fff !important;
@@ -204,10 +232,10 @@ body {
   margin-top: 10px;
 }
 
-.show-up {
+/* .show-up {
   position: relative;
   z-index: 2;
-}
+} */
 
 .white-button a {
   display: inline-block !important;
@@ -252,8 +280,7 @@ body {
   color: #fff !important;
   text-transform: capitalize;
   font-size: 15px;
-  background: rgb(19,175,240);
-  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+  background: rgb(240, 19, 19);
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -262,8 +289,7 @@ body {
 
 .gradient-button a:hover {
   color: #fff !important;
-  background: rgb(19,175,240);
-  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+  background: rgb(240, 19, 19);
 }
 
 .border-button a {
@@ -294,7 +320,7 @@ header
 */
 
 .background-header {
-  background-color: #fff !important;
+  background-color: rgb(0, 0, 0) !important;
   height: 80px!important;
   border-bottom: none !important;
   position: fixed!important;
@@ -334,7 +360,7 @@ header
 }
 
 .header-area {
-  background-color: transparent;
+  background-color: black;
   border-bottom: 1px solid rgba(42,42,42,0.2);
   position: absolute;
   left: 0px;
@@ -349,7 +375,7 @@ header
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
+  background: black;
 }
 
 .header-area .main-nav .logo {
@@ -381,7 +407,7 @@ header
   float: right;
   margin-top: 30px;
   margin-right: 0px;
-  background-color: transparent;
+  background-color: black;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -427,7 +453,7 @@ header
   transition: all 0.3s ease 0s;
   height: 40px;
   line-height: 40px;
-  border: transparent;
+  border: black;
   letter-spacing: 1px;
 }
 
@@ -455,7 +481,7 @@ header
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #2a2a2a;
+  color: #ffffff;
   position: absolute;
   right: 18px;
   top: 12px;
@@ -488,7 +514,7 @@ header
   opacity: 1;
   display: block;
   background: #f7f7f7;
-  color: #2a2a2a!important;
+  color: #ffffff!important;
   padding-left: 20px;
   height: 40px;
   line-height: 40px;
@@ -504,7 +530,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #4b8ef1!important;
+  color: #f14b4b!important;
   padding-left: 25px;
 }
 
@@ -607,7 +633,7 @@ header
 .header-area .main-nav .menu-trigger.active span,
 .header-area .main-nav .menu-trigger.active span:before,
 .header-area .main-nav .menu-trigger.active span:after {
-  background-color: transparent;
+  background-color: black;
   width: 100%;
 }
 
@@ -680,7 +706,7 @@ header
     margin-top: 80px !important;
   }
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    color: #ffffff;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -691,7 +717,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -731,7 +757,7 @@ header
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
+    background: rgb(0, 0, 0);
     border-bottom: 1px solid #e7e7e7;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -741,12 +767,12 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
-    color: #191a20 !important;
+    background: #000000 !important;
+    color: #ffffff !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
-    color: #4b8ef1!important;
+    background: rgb(0, 0, 0) !important;
+    color: #f14b4b!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -771,7 +797,7 @@ header
     height: auto !important;
   }
   .header-area .main-nav .nav li.submenu:after {
-    color: #3B566E;
+    color: #fdfdfd;
     right: 25px;
     font-size: 14px;
     top: 15px;
@@ -897,20 +923,15 @@ Banner Style
 
 .main-banner {
   background-repeat: no-repeat;
-  background-image: url(../../images/run.jpg);
+  background-image: url(../../images/home.png);
   background-position: center center;
-  background-size: cover;
+  background-size: 100%;
   padding: 250px 120px 150px 120px;
-  position: relative;
-  overflow: hidden;
 }
 
 .main-banner:after {
-  content: '';
-  
   background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
+
   left: 0px;
   top: 0px;
   width: 100%;
@@ -1906,19 +1927,14 @@ responsive
     z-index: 2;
     position: relative;
     font-weight: 700;
-    line-height: 70px;
     font-size: 50px;
-    margin-bottom: 20px;
   }
 
-  .main-banner .left-content p {
-    margin-bottom: 45px;
-  }
 }
 
 @media (max-width: 992px) {
   .header-area {
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
   }
   .main-banner:after {
     display: none;
@@ -1926,14 +1942,6 @@ responsive
   .main-banner .left-content h2 {
     color: #2a2a2a;
     margin-right: 0;
-  }
-  .main-banner .left-content p {
-    color: #afafaf;
-    margin-right: 0;
-  }
-  .main-banner .left-content .white-button a {
-    background-color: #4b8ef1;
-    color: #fff !important;
   }
   form#contact {
     overflow: hidden;
@@ -1950,10 +1958,6 @@ responsive
   }
   .main-banner:before {
     display: none;
-  }
-  .main-banner .right-image {
-    margin: 30px auto 0px auto;
-    text-align: center;
   }
   .features-item {
     margin-bottom: 45px;
