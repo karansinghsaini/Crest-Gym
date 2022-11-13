@@ -211,7 +211,7 @@ body {
 }
 
 .section-heading h4 {
-  color: #2a2a2a;
+  color: #ffffff;
   font-size: 30px;
   font-weight: 700;
   text-transform: capitalize;
@@ -220,7 +220,7 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #4b8ef1;
+  color: #ffffff;
 }
 
 .section-heading img {
@@ -336,7 +336,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #4b8ef1;
+  color: #f14b4b;
 }
 
 .background-header .nav li a.active {
@@ -947,7 +947,7 @@ Services Style
 
 .services {
   padding-top: 130px;
-  position: relative;
+  
 }
 
 .services  .section-heading p {
@@ -1034,17 +1034,13 @@ Services Style
   font-size: large;
 }
 
-.home_train_p{
-  width: 40%;
-}
-
 .train_cont{
-  padding-left: 50%;
   padding-bottom: 40px;
 }
 
 .train_container{
   background-image: url(../../images/akash.jpg);
+  background-repeat: no-repeat;
 }
 
 .service-item:hover {
@@ -1911,7 +1907,15 @@ responsive
 
 
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
+  .home_train_p{
+    width: 50%;
+  }
+  
+  .train_cont{
+    padding-left: 50%;
+    padding-bottom: 40px;
+  }
   .header-area .main-nav .logo h4 {
     font-size: 24px;
   }
@@ -1932,7 +1936,16 @@ responsive
 
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
+  .home_train_p{
+    width: 50%;
+    color: white;
+  }
+  
+  .train_cont{
+    padding-left: 50%;
+    padding-bottom: 40px;
+  }
   .header-area {
     background-color: rgb(0, 0, 0);
   }
@@ -2027,7 +2040,16 @@ responsive
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
+  .home_train_p{
+    width: 50%;
+    color: white;
+  }
+  
+  .train_cont{
+    padding-left: 50%;
+    padding-bottom: 40px;
+  }
   .the-clients .naccs .menu div {
     text-align: center;
   }
