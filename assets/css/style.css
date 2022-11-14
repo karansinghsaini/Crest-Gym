@@ -781,6 +781,12 @@ body {
   }
 }
 
+@media (min-width: 1000px){
+  .about {
+    margin:20px 230px;
+    }
+}
+
 @media (min-width: 2100px) {
   .train_cont{
     padding-left: 10%;
@@ -1016,13 +1022,12 @@ Services Style
 .train_container{
   background-image: url(../../images/run.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+
 }
 
 .best_container{
   background-image: url(../../images/best.png);
   background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .service-item:hover {
