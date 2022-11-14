@@ -785,6 +785,9 @@ body {
   .about {
     margin:20px 230px;
     }
+    .push_limit{
+      padding-left: 19%;
+    }
 }
 
 @media (min-width: 2100px) {
