@@ -504,7 +504,6 @@ body {
 
 .header-area .main-nav .menu-trigger {
   cursor: pointer;
-  display: block;
   position: absolute;
   top: 33px;
   width: 32px;
@@ -526,8 +525,7 @@ body {
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #2a2a2a;
-  display: block;
+  background-color: white;
   position: absolute;
   width: 30px;
   height: 2px;
@@ -537,7 +535,7 @@ body {
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+  background-color: white;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -546,8 +544,7 @@ body {
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #2a2a2a;
-  display: block;
+  background-color: white;
   position: absolute;
   width: 30px;
   height: 2px;
@@ -557,7 +554,7 @@ body {
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+  background-color: white;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -598,11 +595,11 @@ body {
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #2a2a2a;
+  background-color: white;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #2a2a2a;
+  background-color: white;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -610,11 +607,11 @@ body {
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #2a2a2a;
+  background-color: white;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #2a2a2a;
+  background-color: white;
 }
 
 .header-area.header-sticky {
@@ -642,7 +639,7 @@ body {
 @media (max-width: 992px) {
   .header-area .main-nav .nav li:last-child  ,
   .background-header .main-nav .nav li:last-child {
-    color: #069;
+    color: rgb(153, 0, 0);
   }
   .header-area .main-nav .nav li:nth-child(6),
   .background-header .main-nav .nav li:nth-child(6) {
